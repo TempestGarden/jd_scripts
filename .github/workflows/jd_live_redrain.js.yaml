@@ -39,4 +39,4 @@ jobs:
                   DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN || github.event.client_payload.DD_BOT_TOKEN }}
                   DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET || github.event.client_payload.DD_BOT_SECRET }}
                   JD_USER_AGENT: ${{ secrets.JD_USER_AGENT || github.event.client_payload.JD_USER_AGENT }}
-                  SYNCURL: https://github.com/lxk0301/jd_scripts/raw/4b65ad5a8371f01602461f3b3d72d01c1983c03a/jd_live_redrain.js
+                  SYNCURL: https://github.com/lxk0301/jd_scripts/raw/master/jd_live_redrain2.js
